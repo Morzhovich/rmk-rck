@@ -1,11 +1,11 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
-name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+name = "RMK RCK"
+product_name = "RMK RCK"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "haobo"
-chip = "rp2040"
+chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory
@@ -16,20 +16,26 @@ output_pins = ["PIN_19", "PIN_20", "PIN_21"]
 
 [layout]
 rows = 4
-cols = 3
-layers = 2
+cols = 6
+layers = 3
 keymap = [
     [
-        ["A", "B", "C"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"]
     ],
     [
-        ["_", "TT(1)", "TG(2)"],
-        ["_", "_", "_"],
-        ["_", "_", "_"],
-        ["_", "_", "_"]
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"]
+    ],
+    [
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_"]
     ],
 ]
 
